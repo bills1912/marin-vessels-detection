@@ -1,5 +1,8 @@
+time
+torch
 numpy
 folium
 pandas
+turtle
 streamlit
 streamlit-folium
