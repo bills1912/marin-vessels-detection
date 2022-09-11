@@ -31,7 +31,7 @@ st.markdown(
 
 st.write("## Ship Imagery Prediction")
 
-ais = pd.read_csv("https://raw.githubusercontent.com/bills1912/marin-vessels-detection/main/MarineTraffic_VesselExport_2022-09-08.csv")
+ais = pd.read_csv("https://raw.githubusercontent.com/bills1912/marin-vessels-detection/main/data/MarineTraffic_VesselExport_2022-09-08.csv")
 ais_jakarta = ais[ais['Destination Port'] == 'JAKARTA']
 ais_list = ais_jakarta.values.tolist()
 f = folium.Figure(width=1000, height=500)
