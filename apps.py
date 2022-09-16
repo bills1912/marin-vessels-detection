@@ -50,10 +50,10 @@ folium_static(jakarta_vessels, width=1000, height=700)
 
 st.write("### Model evaluation:")
 eval_col1, eval_col2, eval_col3, eval_col4 = st.columns(spec=4)
-eval_col1.metric("Precision", "94.064%")
-eval_col2.metric("Recall", "96.053%")
-eval_col3.metric("mAP 0.5", "98.56%")
-eval_col4.metric("mAP 0.5:0.95", "69.401%")
+eval_col1.metric("Precision", "78.321%")
+eval_col2.metric("Recall", "72.21%")
+eval_col3.metric("mAP 0.5", "75.176%")
+eval_col4.metric("mAP 0.5:0.95", "66.357%")
 
 uploaded_file = st.file_uploader("Choose a ship imagery")
 if uploaded_file is not None:
